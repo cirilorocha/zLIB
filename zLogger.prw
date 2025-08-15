@@ -37,7 +37,7 @@ OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE.
 #include 'protheus.ch'
 #INCLUDE 'ParmType.ch'
 //#include 'zlib.ch' 
-
+#xTranslate  ConOut(<cMsg>) => LogMsg(RetFileName(ProcSource()),22,6,1,StrZero(ProcLine(),5),'',<cMsg>)
 
 /* ======================================================
 

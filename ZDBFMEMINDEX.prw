@@ -1,6 +1,7 @@
 #INCLUDE 'RWMake.ch'
 #INCLUDE 'Totvs.ch'
 #INCLUDE 'ParmType.ch'
+#xTranslate  ConOut(<cMsg>) => LogMsg(RetFileName(ProcSource()),22,6,1,StrZero(ProcLine(),5),'',<cMsg>)
 
 /* ==================================================
 Classe      ZDBFMEMINDEX

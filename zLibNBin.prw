@@ -32,12 +32,10 @@ OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE.
 
 ------------------------------------------------------------------------------------------- */
 
-
-
 #INCLUDE 'RWMake.ch'
 #INCLUDE 'Totvs.ch'
 #INCLUDE 'ParmType.ch'
-
+#xTranslate  ConOut(<cMsg>) => LogMsg(RetFileName(ProcSource()),22,6,1,StrZero(ProcLine(),5),'',<cMsg>)
 //aBits[nI+1] USO DIRETAMENTE ASSIM PARA SER MAIS OTIMIZADO!
 
 /* ================================================================================================
